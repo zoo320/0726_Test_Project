@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-10T23:43:38</date>
+  <millis>1507646618552</millis>
+  <sequence>0</sequence>
+  <logger>ch09.exception.logging.SimpleLoggingFile</logger>
+  <level>INFO</level>
+  <class>ch09.exception.logging.SimpleLoggingFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info log</message>
+</record>
+<record>
+  <date>2017-10-10T23:43:38</date>
+  <millis>1507646618613</millis>
+  <sequence>1</sequence>
+  <logger>ch09.exception.logging.SimpleLoggingFile</logger>
+  <level>INFO</level>
+  <class>ch09.exception.logging.SimpleLoggingFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>method type info log</message>
+</record>
+<record>
+  <date>2017-10-10T23:43:38</date>
+  <millis>1507646618618</millis>
+  <sequence>2</sequence>
+  <logger>ch09.exception.logging.SimpleLoggingFile</logger>
+  <level>WARNING</level>
+  <class>ch09.exception.logging.SimpleLoggingFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>method type warn log</message>
+</record>
+<record>
+  <date>2017-10-10T23:43:38</date>
+  <millis>1507646618618</millis>
+  <sequence>3</sequence>
+  <logger>ch09.exception.logging.SimpleLoggingFile</logger>
+  <level>SEVERE</level>
+  <class>ch09.exception.logging.SimpleLoggingFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>method type severe log</message>
+</record>
+</log>
