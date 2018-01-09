@@ -27,5 +27,4 @@ public class InfinityNaN {
 			System.out.printf("d : %f%n", d);
 		}
 	}
-
 }

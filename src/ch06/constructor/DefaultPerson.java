@@ -13,4 +13,9 @@ public class DefaultPerson {
 		person.age = 10;
 		person.isHungry = false;
 	}
+	
+	void test() {
+		new DefaultPerson();
+	}
 }
+

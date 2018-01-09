@@ -3,6 +3,9 @@ package ch03.bit;
 public class ShiftOperation {
 
 	public static void main(String[] args) {
+		byte b1 = 0b1010;
+		System.out.println(b1);
+		
 		int a = 0b1000;
 		System.out.printf("%32s, %d%n", Integer.toBinaryString(a), a);
 		int b = a << 2;

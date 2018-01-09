@@ -14,5 +14,6 @@ public class PersonTest {
 		person2.isHungry = true;
 		System.out.println(person2.name + " : " + person2.isHungry);
 		System.out.println(person1.name + " : " + person1.isHungry);
+		
 	}
 }
