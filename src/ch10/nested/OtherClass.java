@@ -7,6 +7,7 @@ public class OtherClass {
 	public void instanceInnerTest() {
 		InstanceInnerTest iit = new InstanceInnerTest();
 		Inner inner = iit.new Inner();
+		// import 필요 없는 형태
 		InstanceInnerTest.Inner inner2 = iit.new Inner();
 	}
 	
