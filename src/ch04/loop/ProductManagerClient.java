@@ -2,7 +2,7 @@ package ch04.loop;
 
 import java.util.Scanner;
 
-public class ProductManager {
+public class ProductManagerClient {
 	private final String line = "********************************************************************";
 	String mainMenu = "현황조회(L)\t상품등록(R)\t상품판매(S)\t종료(X)";
 	Scanner scanner = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class ProductManager {
 	}
 
 	public static void main(String[] args) {
-		ProductManager pm = new ProductManager();
+		ProductManagerClient pm = new ProductManagerClient();
 		pm.displayMainMenu();
 	}
 }
