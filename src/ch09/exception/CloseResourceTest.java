@@ -6,7 +6,7 @@ import java.io.IOException;
 public class CloseResourceTest {
 	public static void main(String[] args) {
 		CloseResourceTest crt = new CloseResourceTest();
-		System.out.println("--있는 파일(정상적)인 경우--");
+		System.out.println("--있는 파일(정상적)인 경우");
 		crt.useStreamOldStyle(".project");
 		System.out.println("--없는 파일인 경우");
 		crt.useStreamOldStyle("abc.txt");

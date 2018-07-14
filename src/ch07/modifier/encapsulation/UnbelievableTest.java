@@ -1,7 +1,7 @@
 package ch07.modifier.encapsulation;
 
 class UnbelievableUserInfo {
-	//이름은 not null
+	//이름은 null이 될 수 없음.
 	public String name = "홍길동";
 	// 계좌는 0보다 커야 함.
 	public int account = 10000;

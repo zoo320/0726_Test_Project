@@ -2,14 +2,13 @@ package ch13.set;
 
 public class Phone {
 	String number;
-	Integer price;
 
-	public Phone(String number, Integer price) {
+	public Phone(String number) {
 		this.number = number;
-		this.price = price;
 	}
 
+	@Override
 	public String toString() {
-		return "전화 번호: " + number + ", 가격: " + price;
+		return "전화 번호: " + this.number;
 	}
 }

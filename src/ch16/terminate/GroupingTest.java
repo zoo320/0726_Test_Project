@@ -16,18 +16,18 @@ public class GroupingTest {
 		}).collect(Collectors.groupingBy(locale -> {
 			return locale.getLanguage();
 		}));
-		System.out.println("중국어가 사용되는 나라는?");
-		langNames2.get("zh").stream().forEach(locale -> {
+		System.out.println("한국어가 사용되는 Locale는?");
+		langNames2.get("ko").stream().forEach(locale -> {
 			System.out.print("["+locale.getDisplayCountry()+"]");
 		});
-	
+
 		Map<Boolean, List<Locale>> langNames3 = Arrays.stream(locales).filter(locale -> {
 			return locale.getDisplayCountry().trim().length() > 0;
 		}).collect(Collectors.partitioningBy(locale -> {
-			return locale.getLanguage().equals("en");
+			return locale.getLanguage().equals("ko");
 		}));
-		System.out.println("\n비 영어권 국가의 수는?");
-		System.out.println(langNames3.get(false).stream().count()+"개국");
+		System.out.println("\n비 한국어 Locale의 수는?");
+		System.out.println(langNames3.get(false).stream().count()+"개");
 	}
 }
 /*
@@ -49,4 +49,4 @@ Map<String, String> langNames = Arrays.stream(locales)
 							return newOne;
 						}));
 System.out.println(langNames);
-*/
+ */

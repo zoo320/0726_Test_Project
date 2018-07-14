@@ -1,4 +1,4 @@
-package ch15.processing.bffer;
+package ch15.processing.buffer;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
