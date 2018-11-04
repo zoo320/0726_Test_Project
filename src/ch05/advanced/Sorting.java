@@ -16,8 +16,8 @@ public class Sorting {
 			System.out.printf("%d \t", i);
 		}
 		// 정렬
-		for (int i = 0; i < arr.length-1; i++) {
-			for (int j = 0; j < arr.length - 1; j++) {
+		for (int i = 0; i < arr.length - 1; i++) {
+			for (int j = 0; j < arr.length - 1 - i; j++) {	// 비교 가지 수 줄이기
 				if (arr[j] > arr[j + 1]) {
 					temp = arr[j];
 					arr[j] = arr[j + 1];

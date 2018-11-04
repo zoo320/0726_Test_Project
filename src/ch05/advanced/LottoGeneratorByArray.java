@@ -7,7 +7,7 @@ public class LottoGeneratorByArray {
 
 	public static void main(String[] args) {
 		int[] selected = new int[6];
-		int[] fullBall = new int[46];
+		int[] fullBall = new int[45];
 
 		int cnt = 0;
 		Random rand = new Random();
